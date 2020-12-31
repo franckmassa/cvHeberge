@@ -3,6 +3,15 @@ $('.carousel').carousel({
     interval: 1800
 });
 
+// Fonction qui permet d'afficher l'aperçu de l'application desktop et mobile au survole du bouton
+function show(){
+    document.getElementById('image').style.display = 'block';
+}
+                
+function hide(){
+    document.getElementById('image').style.display = 'none';
+}
+        
 // Animation lorsque l'on clique sur les liens du menu ou du footer 
 $(function () {
     $('.navbar a, footer a').on('click', function (event) {

@@ -253,7 +253,21 @@ h3 {
     color: #fff;
 }
 
-
+.image{
+    position: absolute;
+    display: inline-block;
+    width: 1000px;
+    margin-top: 80px;
+    margin-left: -300px;
+    z-index: 1;
+}
+.techno{
+    margin-top: 15px;;
+}
+.apercu{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
 /* #projects .heading h3{
     color: #fff;
 } */
