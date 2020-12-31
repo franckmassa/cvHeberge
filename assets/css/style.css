@@ -604,6 +604,25 @@ footer .glyphicon-chevron-up:hover {
     .timeline-panel:after {
         display: none;
     }
+    .image{
+        position: absolute;
+        display: inline-block;
+        width: 393px;
+        margin-top: -15px;
+        margin-left: -1px;
+        z-index: 1;
+    }
+    .apercu{
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    h3{
+        font-size: 12px;
+        text-transform: capitalize;
+    }
     /* EXPERIENCES */
     #experiences .timeline-panel:after {
         display: none;
