@@ -123,6 +123,15 @@ h3 {
     color: #fff;
 }
 
+.action-wp:hover{
+    border: 5px solid#E9311A;
+    box-shadow: 0px 0px 10px #A3C1F5;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
 .button1 {
     font-weight: bold;
     font-size: 26px;
